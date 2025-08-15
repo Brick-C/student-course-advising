@@ -1,0 +1,44 @@
+.welcome-content {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
+  margin: 45px auto 0;
+  text-align: center;
+}
+
+.welcome-content h2 {
+  color: #3a3e42;
+  font-size: 2.4em;
+  margin-top: 0;
+  margin-bottom: 6%;
+  font-weight: 700;
+}
+
+.welcome-content .user {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.welcome-content .user p {
+  font-size: 1.1em;
+  color: #4e4444;
+  margin: 8px 0;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.welcome-content .user p:first-of-type {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #007bff;
+  margin-bottom: 12px;
+}
+
+.welcome-content p:last-of-type {
+  font-size: 1.1em;
+  color: #555;
+  margin-top: 20px;
+}

@@ -118,13 +118,11 @@ export default function Dashboard() {
     setIsModalOpen(true);
   };
 
-  // Open the confirmation modal for deletion
   const handleDeleteClick = (item) => {
     setItemToDelete(item);
     setIsConfirmModalOpen(true);
   };
 
-  // Perform the deletion after user confirmation
   const handleDeleteConfirm = async () => {
     setIsConfirmModalOpen(false);
     try {
@@ -243,7 +241,7 @@ export default function Dashboard() {
           )}
         </div>
       )}
-      {/* Modal for Create/Edit Form */}
+
       {isModalOpen && (
         <CrudFormModal
           activeModel={activeModel}
@@ -255,7 +253,7 @@ export default function Dashboard() {
           departments={departments}
         />
       )}
-      {/* Custom Confirmation Modal for Delete */}
+
       {isConfirmModalOpen && (
         <ConfirmModal
           message={`Are you sure you want to delete this ${activeModel}?`}

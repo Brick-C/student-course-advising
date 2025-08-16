@@ -10,7 +10,7 @@ const Admin = () => {
             <ul>
               <li>
                 <NavLink
-                  to="welcome"
+                  to="dashboard"
                   className={({ isActive }) => (isActive ? "active" : "")}
                 >
                   Home
